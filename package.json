@@ -1,0 +1,12 @@
+{
+  "name": "oauth-demo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ewsjs/oauth-demo.git",
+  "author": "Gautam Singh <5769869+gautamsi@users.noreply.github.com>",
+  "license": "MIT",
+  "workspaces": [
+    "examples/*samples/*"
+  ]
+}
