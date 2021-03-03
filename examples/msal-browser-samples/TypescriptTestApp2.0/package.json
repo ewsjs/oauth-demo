@@ -43,5 +43,6 @@
     "typescript": "^3.9.6",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "repository": "https://github.com/ewsjs/oauth-demo/tree/master/examples/msal-browser-samples/TypescriptTestApp2.0"
 }

@@ -7,6 +7,8 @@ const msal = require('@azure/msal-node');
 
 const SERVER_PORT = process.env.PORT || 3000;
 
+let tokens = {};
+
 // Before running the sample, you will need to replace the values in the config, 
 // including the clientSecret
 const config = {
@@ -15,15 +17,15 @@ const config = {
         authority: "https://login.microsoftonline.com/common",
         clientSecret: ""
     },
-    system: {
-        loggerOptions: {
-            loggerCallback(loglevel, message, containsPii) {
-                console.log(message);
-            },
-            piiLoggingEnabled: false,
-            logLevel: msal.LogLevel.Verbose,
-        }
-    }
+    system: {
+        loggerOptions: {
+            loggerCallback(loglevel, message, containsPii) {
+                console.log(message);
+            },
+            piiLoggingEnabled: false,
+            logLevel: msal.LogLevel.Verbose,
+        }
+    }
 };
 
 // Create msal application object
@@ -53,6 +55,7 @@ app.get('/redirect', (req, res) => {
 
     cca.acquireTokenByCode(tokenRequest).then((response) => {
         console.log("\nResponse: \n:", response);
+        tokens = { ...response };
         res.sendStatus(200);
     }).catch((error) => {
         console.log(error);

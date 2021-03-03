@@ -13,7 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "@azure/msal-node": "^1.0.0",
+    "dotenv": "8.2.0",
     "ews-javascript-api": "^0.10.3",
     "express": "^4.17.1"
-  }
+  },
+  "repository": "https://github.com/ewsjs/oauth-demo/tree/master/examples/msal-node-samples/auth-code-pkce"
 }

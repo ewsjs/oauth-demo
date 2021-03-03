@@ -3,10 +3,16 @@
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/ewsjs/oauth-demo.git",
+  "repository": "https://github.com/ewsjs/oauth-demo",
   "author": "Gautam Singh <5769869+gautamsi@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "manypkg check"
+  },
   "workspaces": [
     "examples/*samples/*"
-  ]
+  ],
+  "dependencies": {
+    "@manypkg/cli": "^0.17.0"
+  }
 }

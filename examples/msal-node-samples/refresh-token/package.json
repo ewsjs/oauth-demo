@@ -10,7 +10,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ews-javascript-api": "^0.10.3",
-    "@azure/msal-node": "^1.0.0"
-  }
+    "@azure/msal-node": "^1.0.0",
+    "dotenv": "8.2.0",
+    "ews-javascript-api": "^0.10.3"
+  },
+  "repository": "https://github.com/ewsjs/oauth-demo/tree/master/examples/msal-node-samples/refresh-token"
 }

@@ -12,8 +12,10 @@
   "dependencies": {
     "@azure/msal-node": "^1.0.0",
     "axios": "^0.19.2",
+    "dotenv": "8.2.0",
     "ews-javascript-api": "^0.10.3",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4"
-  }
+  },
+  "repository": "https://github.com/ewsjs/oauth-demo/tree/master/examples/msal-node-samples/silent-flow"
 }
