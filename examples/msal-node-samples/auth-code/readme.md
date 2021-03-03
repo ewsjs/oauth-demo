@@ -1,6 +1,6 @@
 ## ews-javascript-api with @azure/msal-node
 you will be redirected for authentication
-you need `CLIENT_ID` and `CLIENT_SECRET` from azure app registration.
+you need `CLIENT_ID` and `CLIENT_SECRET` env variables from azure app registration. put them in .env file
 
 azure app must have `api permission` added for `EWS.AccessAsUser.All`
 
