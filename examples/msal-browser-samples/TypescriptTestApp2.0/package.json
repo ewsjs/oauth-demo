@@ -29,7 +29,7 @@
     "fs": "0.0.1-security",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
-    "yargs": "^15.4.0"
+    "yargs": "^16.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
@@ -40,9 +40,9 @@
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.4",
     "ts-loader": "^8.0.0",
-    "typescript": "^3.9.6",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
   },
   "repository": "https://github.com/ewsjs/oauth-demo/tree/master/examples/msal-browser-samples/TypescriptTestApp2.0"
 }
