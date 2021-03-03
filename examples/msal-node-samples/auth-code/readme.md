@@ -1,3 +1,9 @@
+## ews-javascript-api with @azure/msal-node
+you will be redirected for authentication
+you need `CLIENT_ID` and `CLIENT_SECRET` from azure app registration.
+
+azure app must have `api permission` added for `EWS.AccessAsUser.All`
+
 # MSAL Node Standalone Sample:  Auth Code
 
 The sample applications contained in this directory are independent samples of MSAL Node usage, covering each of the authorization flows that MSAL Node currently supports. To get started with this sample, first follow the general instructions [here](../readme.me).
